@@ -1,0 +1,69 @@
+/* COMMON CSS START */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    cursor: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.counter_container{
+    height: 400px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid black;
+}
+
+.counter{
+    display: flex;
+}
+
+.counter * {
+    width: 33%;
+    height: 45px;
+    font-size: 20px;
+}
+
+.counter button{
+    border: none;
+    background-color: rgb(133, 112, 4);
+    color: white;
+    cursor: pointer;
+}
+
+.counter input{
+    text-align: center;
+    border: 1px solid  rgb(133, 112, 4);
+    color:   rgb(133, 112, 4);
+}
+
+
+
+
+.cursor{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-position: center right;
+    background-size: cover;
+    background-image: url(./gif/Loading_gif_animation.gif);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: .15s;
+    transform: translate(-50%, -50%);
+}
